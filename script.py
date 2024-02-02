@@ -1,5 +1,5 @@
 import configparser
-
+from typing import Optional
 # 初始化配置解析器
 config = configparser.ConfigParser()
 
