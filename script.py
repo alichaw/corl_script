@@ -4,7 +4,7 @@ import configparser
 config = configparser.ConfigParser()
 
 # 定义要执行的文件列表
-files_to_run = ['cal_py.py', 'rebrac.py', 'spot.py', 'td3_bc.py']
+files_to_run = ['cal_ql.py', 'rebrac.py', 'spot.py', 'td3_bc.py']
 
 envs = ['halfcheetah-medium-expert-v2', 'hopper-medium-expert-v2', 'walker2d-medium-expert-v2', 'pen-expert', 'hammer-expert', 'door-expert', 'relocate-expert']
 
