@@ -53,7 +53,7 @@ class Config:
     policy_freq: int = 2
     normalize_q: bool = True
     # training params
-    dataset_name: str = {ENV}
+    dataset_name: str = config['DEFAULT']['ENV']
     batch_size: int = 1024
     num_epochs: int = 1000
     num_updates_on_epoch: int = 1000
